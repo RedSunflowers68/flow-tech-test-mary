@@ -25,6 +25,11 @@ Requirements
 - You can use any styling solution (at Flowdesk we use styled components)
 - You will have to publish your source code in a VCS
 
+
+# Learn about Tickers and What they are
+
+https://scripbox.com/pf/what-is-a-ticker/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
