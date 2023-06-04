@@ -9,6 +9,8 @@ export const FormLabel = styled.p`
   font-size: 12px;
   font-weight: 500;
   margin: 0 0 4px;
+  display: flex;
+  justify-content: center;
 `;
 
 export const Error = styled.p`
