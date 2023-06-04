@@ -6,7 +6,6 @@ export const MainWrapper = styled.section`
 
 export const SectionWrapper = styled.section`
   padding-top: 25px;
-  align-items: center;
 `;
 
 export const SelectWrapper = styled.div`

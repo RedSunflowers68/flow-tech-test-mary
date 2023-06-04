@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const TickerWrapper = styled.div`
-  height: 60px;
-
   .ticker_content {
     display: flex;
     flex-direction: row;
@@ -21,5 +19,8 @@ export const TickerWrapper = styled.div`
     text-transform: capitalize;
     font-weight: 600;
     padding-right: 15px;
+    @media (max-width: 768px) {
+      font-size: 10px;
+    }
   }
 `;
