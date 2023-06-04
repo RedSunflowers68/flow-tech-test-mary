@@ -6,13 +6,14 @@ export const MainWrapper = styled.section`
 
 export const SectionWrapper = styled.section`
   padding-top: 25px;
+  align-items: center;
 `;
 
 export const SelectWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  > * {
-    margin-right: 20px;
+  * {
+    margin-right: 10px;
   }
 `;
 

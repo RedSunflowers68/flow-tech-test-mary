@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const TickerWrapper = styled.div`
   height: 60px;
-  box-sizing: content-box;
 
   .ticker_content {
     display: flex;
@@ -12,6 +11,8 @@ export const TickerWrapper = styled.div`
     white-space: nowrap;
     box-sizing: content-box;
     padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
   }
 
   .ticker_item {

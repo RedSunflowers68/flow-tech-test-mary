@@ -58,6 +58,12 @@ export const SelectCurrency = ({ handleFormSubmit }: SelectCurrencyProps) => {
               </SelectWrapper>
               <div style={{ marginTop: "15px" }}>
                 <ButtonStyles type="submit">Submit</ButtonStyles>
+                <ButtonStyles
+                  onClick={() => window.location.reload()}
+                  type="reset"
+                >
+                  Refresh
+                </ButtonStyles>
               </div>
             </form>
           )}

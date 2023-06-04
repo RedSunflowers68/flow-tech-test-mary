@@ -12,6 +12,7 @@ export const ButtonStyles = styled.button`
   outline: none;
   padding: 10px 16px;
   text-align: center;
+  margin-right: 20px;
 
   &:hover,
   &:focus {
