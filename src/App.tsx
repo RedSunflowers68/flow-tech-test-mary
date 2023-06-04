@@ -39,7 +39,6 @@ function App() {
     setError("");
 
     if (cancelToken) {
-      // Cancel any ongoing request before starting a new one
       cancelToken.cancel();
     }
     const newCancelToken = axios.CancelToken.source();
