@@ -4,6 +4,4 @@ export interface TradeType {
   qty: string;
   quoteQty: string;
   time: number | string;
-  isBuyerMaker: boolean;
-  isBestMatch: boolean;
 }
